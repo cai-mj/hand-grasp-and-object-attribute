@@ -1,0 +1,22 @@
+seqname: !!str 014
+filename: !!str 00000501
+annotator: Minjie Cai
+size: { width: 640, height: 480, depth: 3 }
+lefthand: 
+   visible: 1
+   grasp: large diameter
+   bndbox: { xmin: 99, ymin: 240, xmax: 286, ymax: 455 }
+righthand: 
+   visible: 1
+   grasp: writing tripod
+   bndbox: { xmin: 298, ymin: 229, xmax: 495, ymax: 420 }
+leftobject: 
+   visible: 1
+   name: round bottle
+   bndbox: { xmin: 183, ymin: 236, xmax: 296, ymax: 396 }
+   attribute: { prismatic: 1, sphere: 0, flat: 0, rigid: 1 }
+rightobject: 
+   visible: 1
+   name: fork
+   bndbox: { xmin: 300, ymin: 229, xmax: 405, ymax: 303 }
+   attribute: { prismatic: 1, sphere: 0, flat: 1, rigid: 1 }

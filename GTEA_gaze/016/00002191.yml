@@ -1,0 +1,22 @@
+seqname: !!str 016
+filename: !!str 00002191
+annotator: Minjie Cai
+size: { width: 640, height: 480, depth: 3 }
+lefthand: 
+   visible: 1
+   grasp: lateral pinch
+   bndbox: { xmin: 116, ymin: 287, xmax: 219, ymax: 430 }
+righthand: 
+   visible: 1
+   grasp: lateral tripod
+   bndbox: { xmin: 240, ymin: 158, xmax: 359, ymax: 262 }
+leftobject: 
+   visible: 0
+   name: food bag
+   bndbox: { xmin: 0, ymin: 0, xmax: 0, ymax: 0 }
+   attribute: { prismatic: 0, sphere: 0, flat: 1, rigid: 0 }
+rightobject: 
+   visible: 1
+   name: bottle cap
+   bndbox: { xmin: 229, ymin: 221, xmax: 299, ymax: 272 }
+   attribute: { prismatic: 0, sphere: 1, flat: 0, rigid: 1 }
