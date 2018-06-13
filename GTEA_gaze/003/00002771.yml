@@ -1,0 +1,22 @@
+seqname: !!str 003
+filename: !!str 00002771
+annotator: Minjie Cai
+size: { width: 640, height: 480, depth: 3 }
+lefthand: 
+   visible: 1
+   grasp: large diameter
+   bndbox: { xmin: 121, ymin: 213, xmax: 322, ymax: 380 }
+righthand: 
+   visible: 1
+   grasp: medium wrap
+   bndbox: { xmin: 443, ymin: 242, xmax: 639, ymax: 419 }
+leftobject: 
+   visible: 1
+   name: cup
+   bndbox: { xmin: 214, ymin: 228, xmax: 356, ymax: 366 }
+   attribute: { prismatic: 1, sphere: 0, flat: 0, rigid: 1 }
+rightobject: 
+   visible: 1
+   name: milk bottle
+   bndbox: { xmin: 504, ymin: 226, xmax: 580, ymax: 313 }
+   attribute: { prismatic: 1, sphere: 0, flat: 0, rigid: 1 }

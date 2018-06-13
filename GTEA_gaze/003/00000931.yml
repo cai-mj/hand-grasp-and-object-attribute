@@ -1,0 +1,22 @@
+seqname: !!str 003
+filename: !!str 00000931
+annotator: Minjie Cai
+size: { width: 640, height: 480, depth: 3 }
+lefthand: 
+   visible: 0
+   grasp: precision disk
+   bndbox: { xmin: 0, ymin: 0, xmax: 0, ymax: 0 }
+righthand: 
+   visible: 1
+   grasp: large diameter
+   bndbox: { xmin: 395, ymin: 355, xmax: 580, ymax: 479 }
+leftobject: 
+   visible: 0
+   name: bottle cap
+   bndbox: { xmin: 0, ymin: 0, xmax: 0, ymax: 0 }
+   attribute: { prismatic: 0, sphere: 1, flat: 0, rigid: 1 }
+rightobject: 
+   visible: 1
+   name: round bottle
+   bndbox: { xmin: 396, ymin: 347, xmax: 530, ymax: 448 }
+   attribute: { prismatic: 1, sphere: 0, flat: 0, rigid: 1 }
