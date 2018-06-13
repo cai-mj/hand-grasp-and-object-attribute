@@ -1,0 +1,23 @@
+%YAML:1.0
+seqname: "002"
+filename: "00001651"
+annotator: Minjie Cai
+size: { width:640, height:480, depth:3 }
+lefthand:
+   visible: 1
+   grasp: index finger extension
+   bndbox: { xmin:82, ymin:263, xmax:260, ymax:420 }
+righthand:
+   visible: 1
+   grasp: index finger extension
+   bndbox: { xmin:332, ymin:179, xmax:550, ymax:367 }
+leftobject:
+   visible: 1
+   name: round bottle
+   attribute: { prismatic:1, sphere:1, flat:0, large:1, rigid:1 }
+   bndbox: { xmin:145, ymin:231, xmax:258, ymax:398 }
+rightobject:
+   visible: 1
+   name: spoon
+   attribute: { prismatic:1, sphere:0, flat:1, large:0, rigid:1 }
+   bndbox: { xmin:249, ymin:227, xmax:427, ymax:288 }

@@ -1,0 +1,22 @@
+seqname: !!str 002
+filename: !!str 00001551
+annotator: Minjie Cai
+size: { width: 640, height: 480, depth: 3 }
+lefthand: 
+   visible: 1
+   grasp: large diameter
+   bndbox: { xmin: 151, ymin: 320, xmax: 316, ymax: 478 }
+righthand: 
+   visible: 1
+   grasp: index finger extension
+   bndbox: { xmin: 348, ymin: 230, xmax: 527, ymax: 394 }
+leftobject: 
+   visible: 1
+   name: round bottle
+   bndbox: { xmin: 232, ymin: 309, xmax: 334, ymax: 438 }
+   attribute: { prismatic: 1, sphere: 0, flat: 0, rigid: 1 }
+rightobject: 
+   visible: 1
+   name: knife
+   bndbox: { xmin: 291, ymin: 313, xmax: 360, ymax: 359 }
+   attribute: { prismatic: 1, sphere: 0, flat: 1, rigid: 1 }

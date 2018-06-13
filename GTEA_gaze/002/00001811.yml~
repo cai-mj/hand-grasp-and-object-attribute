@@ -1,0 +1,23 @@
+%YAML:1.0
+seqname: "002"
+filename: "00001811"
+annotator: Minjie Cai
+size: { width:640, height:480, depth:3 }
+lefthand:
+   visible: 1
+   grasp: large diameter
+   bndbox: { xmin:190, ymin:296, xmax:378, ymax:476 }
+righthand:
+   visible: 1
+   grasp: precision disk
+   bndbox: { xmin:278, ymin:186, xmax:444, ymax:347 }
+leftobject:
+   visible: 1
+   name: round bottle
+   attribute: { prismatic:1, sphere:1, flat:0, large:1, rigid:1 }
+   bndbox: { xmin:273, ymin:272, xmax:381, ymax:465 }
+rightobject:
+   visible: 1
+   name: round bottle
+   attribute: { prismatic:1, sphere:0, flat:1, large:0, rigid:1 }
+   bndbox: { xmin:272, ymin:272, xmax:377, ymax:467 }
