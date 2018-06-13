@@ -1,0 +1,22 @@
+seqname: !!str 005
+filename: !!str 00000271
+annotator: Minjie Cai
+size: { width: 640, height: 480, depth: 3 }
+lefthand: 
+   visible: 0
+   grasp: index finger extension
+   bndbox: { xmin: 0, ymin: 0, xmax: 0, ymax: 0 }
+righthand: 
+   visible: 1
+   grasp: thumb-2 finger
+   bndbox: { xmin: 344, ymin: 224, xmax: 544, ymax: 403 }
+leftobject: 
+   visible: 0
+   name: biscuit
+   bndbox: { xmin: 0, ymin: 0, xmax: 0, ymax: 0 }
+   attribute: { prismatic: 0, sphere: 0, flat: 0, rigid: 0 }
+rightobject: 
+   visible: 1
+   name: food bag
+   bndbox: { xmin: 251, ymin: 240, xmax: 366, ymax: 315 }
+   attribute: { prismatic: 0, sphere: 0, flat: 0, rigid: 0 }

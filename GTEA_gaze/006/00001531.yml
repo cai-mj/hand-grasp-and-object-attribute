@@ -1,0 +1,22 @@
+seqname: !!str 006
+filename: !!str 00001531
+annotator: Minjie Cai
+size: { width: 640, height: 480, depth: 3 }
+lefthand: 
+   visible: 0
+   grasp: thumb-2 finger
+   bndbox: { xmin: 0, ymin: 0, xmax: 0, ymax: 0 }
+righthand: 
+   visible: 1
+   grasp: large diameter
+   bndbox: { xmin: 148, ymin: 316, xmax: 309, ymax: 479 }
+leftobject: 
+   visible: 0
+   name: spoon
+   bndbox: { xmin: 0, ymin: 0, xmax: 0, ymax: 0 }
+   attribute: { prismatic: 1, sphere: 0, flat: 1, rigid: 1 }
+rightobject: 
+   visible: 1
+   name: fork box
+   bndbox: { xmin: 87, ymin: 310, xmax: 243, ymax: 461 }
+   attribute: { prismatic: 1, sphere: 0, flat: 0, rigid: 1 }
