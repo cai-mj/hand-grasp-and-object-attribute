@@ -1,0 +1,22 @@
+seqname: !!str 017
+filename: !!str 00001541
+annotator: Minjie Cai
+size: { width: 640, height: 480, depth: 3 }
+lefthand: 
+   visible: 0
+   grasp: extension type
+   bndbox: { xmin: 0, ymin: 0, xmax: 0, ymax: 0 }
+righthand: 
+   visible: 1
+   grasp: writing tripod
+   bndbox: { xmin: 431, ymin: 163, xmax: 559, ymax: 296 }
+leftobject: 
+   visible: 0
+   name: bowl
+   bndbox: { xmin: 0, ymin: 0, xmax: 0, ymax: 0 }
+   attribute: { prismatic: 0, sphere: 0, flat: 1, rigid: 1 }
+rightobject: 
+   visible: 1
+   name: fork
+   bndbox: { xmin: 411, ymin: 154, xmax: 516, ymax: 223 }
+   attribute: { prismatic: 1, sphere: 0, flat: 1, rigid: 1 }
