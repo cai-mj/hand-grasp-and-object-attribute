@@ -1,0 +1,22 @@
+seqname: !!str 012
+filename: !!str 00002471
+annotator: Minjie Cai
+size: { width: 640, height: 480, depth: 3 }
+lefthand: 
+   visible: 1
+   grasp: large diameter
+   bndbox: { xmin: 21, ymin: 330, xmax: 186, ymax: 470 }
+righthand: 
+   visible: 1
+   grasp: writing tripod
+   bndbox: { xmin: 251, ymin: 103, xmax: 401, ymax: 259 }
+leftobject: 
+   visible: 1
+   name: round bottle
+   bndbox: { xmin: 124, ymin: 349, xmax: 243, ymax: 453 }
+   attribute: { prismatic: 1, sphere: 0, flat: 0, rigid: 1 }
+rightobject: 
+   visible: 1
+   name: spoon
+   bndbox: { xmin: 238, ymin: 94, xmax: 317, ymax: 212 }
+   attribute: { prismatic: 1, sphere: 0, flat: 1, rigid: 1 }

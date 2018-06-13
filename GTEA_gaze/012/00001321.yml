@@ -1,0 +1,22 @@
+seqname: !!str 012
+filename: !!str 00001321
+annotator: Minjie Cai
+size: { width: 640, height: 480, depth: 3 }
+lefthand: 
+   visible: 1
+   grasp: extension type
+   bndbox: { xmin: 44, ymin: 341, xmax: 205, ymax: 476 }
+righthand: 
+   visible: 1
+   grasp: thumb-2 finger
+   bndbox: { xmin: 383, ymin: 153, xmax: 560, ymax: 309 }
+leftobject: 
+   visible: 1
+   name: bread
+   bndbox: { xmin: 93, ymin: 308, xmax: 231, ymax: 451 }
+   attribute: { prismatic: 0, sphere: 0, flat: 1, rigid: 0 }
+rightobject: 
+   visible: 1
+   name: spoon
+   bndbox: { xmin: 371, ymin: 152, xmax: 472, ymax: 232 }
+   attribute: { prismatic: 1, sphere: 0, flat: 1, rigid: 1 }
