@@ -1,0 +1,22 @@
+seqname: !!str 020
+filename: !!str 00002151
+annotator: Minjie Cai
+size: { width: 640, height: 480, depth: 3 }
+lefthand: 
+   visible: 1
+   grasp: thumb-2 finger
+   bndbox: { xmin: 96, ymin: 195, xmax: 251, ymax: 361 }
+righthand: 
+   visible: 1
+   grasp: thumb-2 finger
+   bndbox: { xmin: 252, ymin: 185, xmax: 421, ymax: 343 }
+leftobject: 
+   visible: 0
+   name: peperoni
+   bndbox: { xmin: 0, ymin: 0, xmax: 0, ymax: 0 }
+   attribute: { prismatic: 0, sphere: 0, flat: 1, rigid: 1 }
+rightobject: 
+   visible: 0
+   name: peperoni
+   bndbox: { xmin: 0, ymin: 0, xmax: 0, ymax: 0 }
+   attribute: { prismatic: 0, sphere: 0, flat: 1, rigid: 1 }
