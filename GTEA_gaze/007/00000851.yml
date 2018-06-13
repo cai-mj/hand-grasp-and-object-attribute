@@ -1,0 +1,22 @@
+seqname: !!str 007
+filename: !!str 00000851
+annotator: Minjie Cai
+size: { width: 640, height: 480, depth: 3 }
+lefthand: 
+   visible: 1
+   grasp: extension type
+   bndbox: { xmin: 22, ymin: 310, xmax: 153, ymax: 437 }
+righthand: 
+   visible: 0
+   grasp: tripod
+   bndbox: { xmin: 0, ymin: 0, xmax: 0, ymax: 0 }
+leftobject: 
+   visible: 1
+   name: bowl
+   bndbox: { xmin: 73, ymin: 234, xmax: 335, ymax: 372 }
+   attribute: { prismatic: 0, sphere: 0, flat: 1, rigid: 1 }
+rightobject: 
+   visible: 0
+   name: bottle cap
+   bndbox: { xmin: 0, ymin: 0, xmax: 0, ymax: 0 }
+   attribute: { prismatic: 0, sphere: 1, flat: 0, rigid: 1 }

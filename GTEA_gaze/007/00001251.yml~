@@ -1,0 +1,23 @@
+%YAML:1.0
+seqname: "007"
+filename: "00001251"
+annotator: Minjie Cai
+size: { width:640, height:480, depth:3 }
+lefthand:
+   visible: 1
+   grasp: thumb-2 finger
+   bndbox: { xmin:142, ymin:336, xmax:238, ymax:443 }
+righthand:
+   visible: 1
+   grasp: thumb-2 finger
+   bndbox: { xmin:275, ymin:317, xmax:371, ymax:436 }
+leftobject:
+   visible: 1
+   name: cheese
+   attribute: { prismatic:0, sphere:0, flat:1, large:1, rigid:1 }
+   bndbox: { xmin:191, ymin:304, xmax:293, ymax:414 }
+rightobject:
+   visible: 1
+   name: cheese
+   attribute: { prismatic:0, sphere:0, flat:1, large:1, rigid:1 }
+   bndbox: { xmin:192, ymin:304, xmax:292, ymax:416 }

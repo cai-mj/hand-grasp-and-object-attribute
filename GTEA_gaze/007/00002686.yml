@@ -1,0 +1,22 @@
+seqname: !!str 007
+filename: !!str 00002686
+annotator: Minjie Cai
+size: { width: 640, height: 480, depth: 3 }
+lefthand: 
+   visible: 1
+   grasp: index finger extension
+   bndbox: { xmin: 53, ymin: 185, xmax: 215, ymax: 324 }
+righthand: 
+   visible: 1
+   grasp: index finger extension
+   bndbox: { xmin: 310, ymin: 274, xmax: 465, ymax: 408 }
+leftobject: 
+   visible: 1
+   name: fork
+   bndbox: { xmin: 199, ymin: 238, xmax: 260, ymax: 297 }
+   attribute: { prismatic: 1, sphere: 0, flat: 0, rigid: 1 }
+rightobject: 
+   visible: 1
+   name: knife
+   bndbox: { xmin: 276, ymin: 267, xmax: 346, ymax: 325 }
+   attribute: { prismatic: 1, sphere: 0, flat: 1, rigid: 1 }

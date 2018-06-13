@@ -1,0 +1,22 @@
+seqname: !!str 007
+filename: !!str 00002421
+annotator: Minjie Cai
+size: { width: 640, height: 480, depth: 3 }
+lefthand: 
+   visible: 1
+   grasp: index finger extension
+   bndbox: { xmin: 66, ymin: 281, xmax: 237, ymax: 424 }
+righthand: 
+   visible: 1
+   grasp: index finger extension
+   bndbox: { xmin: 314, ymin: 342, xmax: 460, ymax: 470 }
+leftobject: 
+   visible: 0
+   name: fork
+   bndbox: { xmin: 0, ymin: 0, xmax: 0, ymax: 0 }
+   attribute: { prismatic: 1, sphere: 0, flat: 1, rigid: 1 }
+rightobject: 
+   visible: 0
+   name: tomato
+   bndbox: { xmin: 0, ymin: 0, xmax: 0, ymax: 0 }
+   attribute: { prismatic: 0, sphere: 1, flat: 0, rigid: 1 }

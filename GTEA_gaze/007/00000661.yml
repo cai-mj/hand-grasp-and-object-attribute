@@ -1,0 +1,22 @@
+seqname: !!str 007
+filename: !!str 00000661
+annotator: Minjie Cai
+size: { width: 640, height: 480, depth: 3 }
+lefthand: 
+   visible: 1
+   grasp: medium wrap
+   bndbox: { xmin: 3, ymin: 282, xmax: 168, ymax: 402 }
+righthand: 
+   visible: 1
+   grasp: extension type
+   bndbox: { xmin: 330, ymin: 384, xmax: 443, ymax: 479 }
+leftobject: 
+   visible: 1
+   name: milk bottle
+   bndbox: { xmin: 88, ymin: 300, xmax: 178, ymax: 379 }
+   attribute: { prismatic: 1, sphere: 0, flat: 0, rigid: 1 }
+rightobject: 
+   visible: 1
+   name: bowl
+   bndbox: { xmin: 325, ymin: 364, xmax: 392, ymax: 424 }
+   attribute: { prismatic: 0, sphere: 0, flat: 1, rigid: 1 }
