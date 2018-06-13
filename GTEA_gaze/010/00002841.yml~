@@ -1,0 +1,23 @@
+%YAML:1.0
+seqname: "010"
+filename: "00002841"
+annotator: Minjie Cai
+size: { width:640, height:480, depth:3 }
+lefthand:
+   visible: 1
+   grasp: thumb-4 finger
+   bndbox: { xmin:65, ymin:249, xmax:220, ymax:389 }
+righthand:
+   visible: 0
+   grasp: index finger extension
+   bndbox: { xmin:0, ymin:0, xmax:0, ymax:0 }
+leftobject:
+   visible: 1
+   name: spoon
+   attribute: { prismatic:1, sphere:0, flat:1, large:0, rigid:1 }
+   bndbox: { xmin:175, ymin:249, xmax:226, ymax:326 }
+rightobject:
+   visible: 0
+   name: spoon
+   attribute: { prismatic:1, sphere:0, flat:1, large:0, rigid:1 }
+   bndbox: { xmin:0, ymin:0, xmax:0, ymax:0 }
