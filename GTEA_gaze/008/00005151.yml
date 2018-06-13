@@ -1,0 +1,22 @@
+seqname: !!str 008
+filename: !!str 00005151
+annotator: Minjie Cai
+size: { width: 640, height: 480, depth: 3 }
+lefthand: 
+   visible: 0
+   grasp: precision disk
+   bndbox: { xmin: 0, ymin: 0, xmax: 0, ymax: 0 }
+righthand: 
+   visible: 1
+   grasp: thumb-4 finger
+   bndbox: { xmin: 251, ymin: 157, xmax: 457, ymax: 347 }
+leftobject: 
+   visible: 0
+   name: biscuit
+   bndbox: { xmin: 0, ymin: 0, xmax: 0, ymax: 0 }
+   attribute: { prismatic: 0, sphere: 1, flat: 0, rigid: 1 }
+rightobject: 
+   visible: 1
+   name: biscuit
+   bndbox: { xmin: 225, ymin: 203, xmax: 322, ymax: 298 }
+   attribute: { prismatic: 1, sphere: 0, flat: 0, rigid: 1 }

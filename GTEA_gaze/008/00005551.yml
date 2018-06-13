@@ -1,0 +1,22 @@
+seqname: !!str 008
+filename: !!str 00005551
+annotator: Minjie Cai
+size: { width: 640, height: 480, depth: 3 }
+lefthand: 
+   visible: 1
+   grasp: thumb-4 finger
+   bndbox: { xmin: 156, ymin: 263, xmax: 293, ymax: 401 }
+righthand: 
+   visible: 1
+   grasp: large diameter
+   bndbox: { xmin: 269, ymin: 265, xmax: 406, ymax: 414 }
+leftobject: 
+   visible: 1
+   name: flat bottle
+   bndbox: { xmin: 220, ymin: 235, xmax: 328, ymax: 378 }
+   attribute: { prismatic: 1, sphere: 0, flat: 0, rigid: 1 }
+rightobject: 
+   visible: 1
+   name: flat bottle
+   bndbox: { xmin: 224, ymin: 234, xmax: 356, ymax: 390 }
+   attribute: { prismatic: 1, sphere: 0, flat: 0, rigid: 1 }

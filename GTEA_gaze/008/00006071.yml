@@ -1,0 +1,22 @@
+seqname: !!str 008
+filename: !!str 00006071
+annotator: Minjie Cai
+size: { width: 640, height: 480, depth: 3 }
+lefthand: 
+   visible: 1
+   grasp: thumb-4 finger
+   bndbox: { xmin: 171, ymin: 226, xmax: 323, ymax: 363 }
+righthand: 
+   visible: 1
+   grasp: extension type
+   bndbox: { xmin: 385, ymin: 214, xmax: 551, ymax: 369 }
+leftobject: 
+   visible: 1
+   name: cheese
+   bndbox: { xmin: 267, ymin: 237, xmax: 362, ymax: 350 }
+   attribute: { prismatic: 0, sphere: 0, flat: 1, rigid: 0 }
+rightobject: 
+   visible: 1
+   name: cheese
+   bndbox: { xmin: 381, ymin: 216, xmax: 475, ymax: 337 }
+   attribute: { prismatic: 0, sphere: 0, flat: 1, rigid: 0 }

@@ -1,0 +1,22 @@
+seqname: !!str 008
+filename: !!str 00006361
+annotator: Minjie Cai
+size: { width: 640, height: 480, depth: 3 }
+lefthand: 
+   visible: 0
+   grasp: thumb-4 finger
+   bndbox: { xmin: 0, ymin: 0, xmax: 0, ymax: 0 }
+righthand: 
+   visible: 1
+   grasp: tripod
+   bndbox: { xmin: 201, ymin: 154, xmax: 332, ymax: 281 }
+leftobject: 
+   visible: 0
+   name: cheese
+   bndbox: { xmin: 0, ymin: 0, xmax: 0, ymax: 0 }
+   attribute: { prismatic: 0, sphere: 0, flat: 1, rigid: 0 }
+rightobject: 
+   visible: 1
+   name: tomato
+   bndbox: { xmin: 213, ymin: 252, xmax: 286, ymax: 304 }
+   attribute: { prismatic: 0, sphere: 1, flat: 0, rigid: 1 }
